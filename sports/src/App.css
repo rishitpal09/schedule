@@ -1,0 +1,116 @@
+*{
+  margin:0;
+  padding:0;
+  text-decoration: none;
+}
+.container{
+  display:flex;
+}
+main{
+  width: 100%;
+  padding: 20px;
+}
+.sidebar{
+  background: #0e111b;
+  color: #fff;
+  height: 100vh;
+  width: 300px;
+  transition: all 0.5s;
+}
+.top_section{
+  display: flex;
+  align-items:center;
+  padding:20px 15px;
+}
+.logo{
+  font-size: 30px;
+}
+.bars{
+  display: flex;
+  font-size: 25px;
+  margin-left: 50px;
+}
+.link{
+  display:flex ;
+  color: #fff;
+  padding: 10px 15px;
+  gap: 5px;
+  transition: all 0.5s;
+}
+.link:hover{
+  background:rgb(241, 245, 247);
+  color: #d0dcd4;
+  transition: all 0.5s;
+}
+.active{
+  background: lightskyblue;
+  color: #1dc91a;
+}
+.icon, .link_text{
+  font-size: 30px;
+  margin-left: 5px;
+  align-items: center;
+}
+.text-box {
+  border: 1px solid #ccc;
+  padding: 10px;
+  background-color: #c6f0f0;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  /* Add any other styling you want */
+}
+.my-component {
+  /* background-color: #f4f2eb; Replace with your desired color */
+  padding: 20px; /* Add padding or other styles as needed */
+}
+.basketball {
+  background-image: url("C:\Users\S5P\Desktop\vector-illustration-basketball-on-fire-260nw-1932908948.webp"); /* Replace with your image path */
+   /* Replace with your image path */
+  background-size: cover;
+  background-position: center;
+  min-height: 95vh; /* Ensure the container covers the entire viewport height */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: rgb(23, 21, 21);
+}
+.football {
+  background-image: url("C:\Users\S5P\Desktop\1884497.jpg"); /* Replace with your image path */
+   /* Replace with your image path */
+  background-size: cover;
+  background-position: center;
+  min-height: 95vh; /* Ensure the container covers the entire viewport height */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: rgb(23, 21, 21);
+}
+.tennis {
+  background-image: url("C:\Users\S5P\Desktop\photo-1609710228159-0fa9bd7c0827.jpg"); /* Replace with your image path */
+   /* Replace with your image path */
+  background-size: cover;
+  background-position: center;
+  min-height: 95vh; /* Ensure the container covers the entire viewport height */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: rgb(23, 21, 21);
+}
+.dashboard {
+  background-image: url("C:\Users\S5P\Desktop\sp.jpeg"); /* Replace with your image path */
+   /* Replace with your image path */
+  background-size: cover;
+  background-position: center;
+  min-height: 95vh; /* Ensure the container covers the entire viewport height */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: rgb(23, 21, 21);
+}
+
+
+
